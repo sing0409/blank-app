@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>欣想事陳 - Sing Chen's Fantasy Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="欣想事陳 Logo" class="logo" />
+    <h1>欣想事陳</h1>
+    <p class="subtitle">Sing Chen's Fantasy Journey</p>
+    <p class="tagline">陪你遇見更好的自己</p>
+  </header>
+
+  <main>
+    <section class="journal">
+      <h2>今日日記 Today's Journal</h2>
+
+      <label>欣賞感謝自己 / Appreciate Myself</label>
+      <textarea id="selfInput" placeholder="今天我為自己感到驕傲..."></textarea>
+
+      <label>欣賞感謝他人 / Appreciate Others</label>
+      <textarea id="othersInput" placeholder="今天我感謝..."></textarea>
+
+      <label>願望顯化 / Manifestation</label>
+      <textarea id="wishInput" placeholder="今天好開心..."></textarea>
+
+      <button onclick="generateJournal()">完成日記</button>
+
+      <div id="output">
+        <h3>🌟 正向回饋 Positive Feedback</h3>
+        <p id="feedback"></p>
+
+        <h3>🖼 願望顯化圖片 AI Image</h3>
+        <img id="aiImage" src="placeholder.jpg" alt="AI 願望圖片" />
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
